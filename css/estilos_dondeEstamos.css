@@ -1,0 +1,65 @@
+
+/*Cabecera*/
+
+body>header{
+		background:url('../img/cabecera-donde-estamos.jpg') no-repeat bottom center/cover;
+}
+
+/*Mapa*/
+.mapa{
+	padding: 0 10vw 5vw 10vw;
+}
+
+.mapa iframe{
+	width:100%;
+	height:25vw;
+}
+
+.mapa address{
+	margin-top:3rem;
+	text-align:center;
+	line-height: 1.2rem;
+	color:#4B4B4B;
+	font-style: normal;
+
+}
+
+.mapa address>span{
+	display: block;
+	margin: 1rem 0;
+}
+
+.mapa address .direccion{
+	font-weight: 700;
+}
+
+.icon-location2:before {
+  content: "\e948";
+  font-size:1.8rem;
+}
+
+.icon-phone:before {
+	font-family:'icomoon';
+  content: "\e942";
+  font-size:1.8rem;
+}
+
+
+.mapa address .email a{
+	font-weight: 400;
+	color: #EE790F;
+	text-decoration: none;
+}
+
+/*MEDIA QUERIES*/
+/*Pantalla mediana*/
+@media screen and (max-width:960px) {
+	.mapa{
+		padding: 0 0 5vw 0;
+	}
+
+	.mapa iframe{
+		width:100%;
+		height:50vw;
+	}
+}
